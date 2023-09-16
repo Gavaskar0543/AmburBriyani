@@ -1,0 +1,53 @@
+.navBar {
+    height: 4rem;
+    padding: 0 3% 0 3%;
+    cursor: pointer;
+}
+
+.navBar div:hover {
+    color: #F2970B;
+}
+
+#dum {
+    color: red;
+    animation: bounce 1s infinite;
+}
+
+#plates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.inside-products:hover {
+    background-color: #e74c3c;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.inside-products {
+    border: 1px solid silver;
+    width: 100%;
+    transition: all 1s ease-in-out;
+
+}
+
+
+@keyframes bounce {
+
+    0%,
+    100% {}
+
+    50% {
+        color: white;
+
+    }
+}
