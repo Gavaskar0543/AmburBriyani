@@ -41,6 +41,17 @@
 }
 
 
+.productDivs{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px;
+  
+}
+.productDivs:nth-child(2n){
+    background-color: whitesmoke;
+    border-color: white;
+  
+   
+}
 @keyframes bounce {
 
     0%,
