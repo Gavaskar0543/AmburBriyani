@@ -44,6 +44,7 @@
 .productDivs{
     border-radius: 10px;
     box-shadow: 0px 0px 5px 5px;
+    transition: all .5s ease-in-out;
   
 }
 .productDivs:nth-child(2n){
@@ -51,6 +52,12 @@
     border-color: white;
   
    
+}
+
+.productDivs:hover{
+  border:none;
+  box-shadow: none;
+  border:2px solid whitesmoke;
 }
 @keyframes bounce {
 
