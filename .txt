@@ -1,0 +1,29 @@
+  <div class="inside-products">
+                <div>
+                    <img src="./assets/ambur.jpg" alt="imag1" width="50%">
+                </div>
+                <div>
+                    <table class=" border border-collapse">
+                        <thead>
+                            <tr>
+                                <th class="px-4 py-2 border">Item</th>
+                                <th class="px-4 py-2 border">Quantity</th>
+                                <th class="px-4 py-2 border">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="px-4 py-2 border" rowspan="2">Briyani</td>
+                                <td class="px-4 py-2 border">1</td>
+                                <td class="px-4 py-2 border">150</td>
+                            </tr>
+                            <tr>
+
+                                <td class="px-4 py-2 border">1/2</td>
+                                <td class="px-4 py-2 border">100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>

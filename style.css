@@ -30,7 +30,7 @@
 .inside-products:hover {
     background-color: #e74c3c;
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    
 }
 
 .inside-products {
